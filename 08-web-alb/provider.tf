@@ -7,7 +7,7 @@ terraform {
   }
     backend "s3" {
     bucket = "78s-remote-state-1"
-    key    = "remote-APPALB222-test"
+    key    = "remote-WEB-ALB-test"
     region = "us-east-1"
     dynamodb_table="daws78s-locking"
   }

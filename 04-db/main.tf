@@ -73,7 +73,7 @@ module "records" {
   
   records = [
     {
-      name    = "db"
+      name    = "db-dev"
       type    = "CNAME"
       ttl = 1
       allow_overwrite = true
